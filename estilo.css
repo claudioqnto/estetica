@@ -1,0 +1,122 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html, body{
+	height: 100%
+	background: #F5DCDC;	
+	font-family: 'Montserrat', sans-serif;
+}
+header{	
+	height: auto;
+	overflow: hidden;
+}
+video{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+}
+.caixa {
+	padding: 30px;
+	position: relative;
+	top: 7px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+header h1{
+	display: inline;
+	color: #FF5858;
+	text-shadow: 2px 1px black;
+}
+nav{
+	display: inline;
+	float: right;
+	padding: 10px 0 0 0;
+}
+nav ul{
+	display: inline;
+}
+
+nav li{
+	display: inline;
+	margin:0 0 0 20px;	
+}
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FF5858;
+	text-shadow: 1px 1px black;
+
+}
+nav a:hover{
+	color: #FF4B4B;
+	text-decoration: underline;
+}
+main{
+	height: auto;
+}
+.conteudo{
+	position: relative;
+	top: 187px;
+	width: 940px;
+	margin: 0 auto;
+	/*
+position: relative;
+display: inline-block;
+width: 500px;
+top: 180px;
+float: right;*/
+
+}
+.chamada{
+	/*background: #ffffff;*/
+	display: inline-block;
+	width: 400px;
+	top: 200px;
+	float: right;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: right;
+	/*text-shadow: 1px 1px #000000;*/
+}
+
+main h2{
+	color: #000000;
+	font-size: 30px;
+}
+main p{
+	color: #000000;
+	font-size: 18px;
+	margin: 10px 0px 20px 0px;
+}
+.acesso{
+	color: #000000;
+	background: #ffffff;
+	border-radius: 5px;
+	margin: 20px 0px;
+	padding: 10px;
+	text-align: center;
+	transition: 1s all;
+	text-decoration: none;
+}
+.acesso:hover{
+	background: #FF5858;
+}
+footer{
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+
+footer p {
+	padding: 30px;	
+	text-align: center;
+}
